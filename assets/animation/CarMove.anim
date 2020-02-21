@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "CarMove",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.966666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": -0.03333333333333333,
+            "value": {
+              "__uuid__": "27d7986d-0bdf-4882-9a15-c94b565cf667"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": 255
+        },
+        {
+          "frame": 2.6333333333333333,
+          "value": 255
+        },
+        {
+          "frame": 2.966666666666667,
+          "value": 0
+        }
+      ],
+      "position": [
+        {
+          "frame": -0.03333333333333333,
+          "value": [
+            487.839,
+            621.369,
+            0
+          ]
+        },
+        {
+          "frame": 2.966666666666667,
+          "value": [
+            -466.256,
+            621.369,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "initCar",
+      "params": []
+    },
+    {
+      "frame": 1.4,
+      "func": "createPeople",
+      "params": []
+    },
+    {
+      "frame": 2.933333333333333,
+      "func": "whetherMax",
+      "params": []
+    },
+    {
+      "frame": 2.933333333333333,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 2.933333333333333,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 2.933333333333333,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 2.933333333333333,
+      "func": "",
+      "params": []
+    }
+  ]
+}
